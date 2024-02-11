@@ -19,7 +19,7 @@ const sosmedList = [
 export default function Home() {
   return (
     <>
-      <div className="flex justify-around items-center py-4 fixed w-screen">
+      <div className="flex justify-around items-center py-4 fixed w-screen bg-slate-800">
         <h1 className="font-semibold text-xl">
           <Link href={"/"}>OODK</Link>
         </h1>
@@ -40,21 +40,13 @@ export default function Home() {
             Frontend Developer
           </h3>
           <p className="my-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
-            debitis. Modi ipsa quidem fuga ipsam tempora dignissimos suscipit
-            cum ratione aperiam quam, eum est quasi! Maxime, porro!
+            saya adalah ahli programmer,menjadi Backend Developer terhandal
           </p>
           <div className="flex gap-4 items-center">
-            <Link
-              href={"/"}
-              className="bg-sky-500 px-8 py-2 rounded-lg text-slate-800 font-bold hover:bg-transparent transition hover:text-sky-500 border-2 border-sky-500"
-            >
+            <Link href={"/"} className="btn btn-info">
               Hire Me
             </Link>
-            <Link
-              href={"#contact"}
-              className="bg-transparent px-8 py-2 rounded-lg text-sky-500 font-bold hover:bg-sky-500 transition hover:text-slate-800 border-2 border-sky-500"
-            >
+            <Link href={"#contact"} className="btn btn-info btn-outline">
               Let&apos;s Talk
             </Link>
           </div>
@@ -83,7 +75,23 @@ export default function Home() {
         </div>
       </div>
 
-      <div></div>
+      <div className="bg-slate-700 px-4 py-10 gap-6 flex flex-col justify-center items-center text-center">
+        <h1 className="font-semibold text-4xl pb-8">
+          About <span className="text-sky-500">Me</span>
+        </h1>
+        <Image
+          src={"/profile.jpeg"}
+          alt="profile"
+          width={200}
+          height={200}
+          className="w-52 rounded-full outline-sky-700 outline"
+        />
+        <h1 className="font-semibold text-2xl">Frontend Developer!</h1>
+        <p>saya adalah ahli programmer,menjadi Backend Developer terhandal</p>
+        <Link href={"/"} className="btn btn-info text-slate-800">
+          Read More
+        </Link>
+      </div>
     </>
   );
 }
