@@ -5,7 +5,15 @@ export default function MySkills() {
         My <span className="text-sky-500">Skills</span>
       </h1>
 
-      <div></div>
+      <div>
+        <div>
+          <h2 className="font-semibold text-xl pb-4 text-center">
+            Coding SKills
+          </h2>
+        </div>
+
+        <div></div>
+      </div>
     </div>
   );
 }

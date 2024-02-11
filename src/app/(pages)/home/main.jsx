@@ -16,17 +16,21 @@ export default function Main() {
         <h3 className="text-sky-500 font-semibold text-2xl">
           Frontend Developer
         </h3>
+
         <p className="my-5">
           saya adalah ahli programmer,menjadi Backend Developer terhandal
         </p>
+
         <div className="flex gap-4 items-center m-auto lg:m-0">
           <Link href={"/"} className="btn btn-info">
             Hire Me
           </Link>
+
           <Link href={"#contact"} className="btn btn-info btn-outline">
             Let&apos;s Talk
           </Link>
         </div>
+
         <div className="flex items-center gap-3 lg:mt-24 mt-10 m-auto lg:m-0">
           {sosmedList.map((doc) => (
             <Link
@@ -40,6 +44,7 @@ export default function Main() {
           ))}
         </div>
       </div>
+
       <div className="overflow-hidden lg:rounded-b-full lg:rounded-s-full lg:rounded-none rounded-full order-1 lg:order-2">
         <Image
           src={"/profile.jpeg"}
