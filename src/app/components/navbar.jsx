@@ -12,7 +12,7 @@ const linkItems = [
 export default function Navbar({ children }) {
   return (
     <>
-      <div className="navbar bg-slate-800 fixed">
+      <div className="navbar bg-slate-800 fixed z-10">
         <div className="navbar-start">
           <Link href={"/"} className="btn btn-ghost text-xl">
             OODK
