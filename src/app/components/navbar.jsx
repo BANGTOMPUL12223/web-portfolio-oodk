@@ -4,8 +4,8 @@ import { IoMenu } from "react-icons/io5";
 const linkItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "#about" },
-  { name: "Education", href: "#education" },
-  { name: "Skills", href: "#skills" },
+  { name: "Education", href: "#myjourney" },
+  { name: "Skills", href: "#myskills" },
   { name: "Contact", href: "#contact" },
 ];
 

@@ -3,7 +3,10 @@ import Link from "next/link";
 
 export default function AboutMe() {
   return (
-    <div className="bg-slate-700 px-4 py-10 gap-6 flex flex-col justify-center items-center text-center">
+    <div
+      className="bg-slate-700 px-4 py-10 gap-6 flex flex-col justify-center items-center text-center"
+      id="about"
+    >
       <h1 className="font-semibold text-4xl pb-8">
         About <span className="text-sky-500">Me</span>
       </h1>

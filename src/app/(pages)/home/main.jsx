@@ -22,7 +22,7 @@ export default function Main() {
         </p>
 
         <div className="flex gap-4 items-center m-auto lg:m-0">
-          <Link href={"/"} className="btn btn-info">
+          <Link href={"#contact"} className="btn btn-info">
             Hire Me
           </Link>
 
