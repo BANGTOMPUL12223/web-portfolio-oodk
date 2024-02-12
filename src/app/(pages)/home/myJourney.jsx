@@ -17,7 +17,7 @@ export default function MyJourney() {
                   </p>
 
                   <h2 className="card-title text-base">
-                    SMAN X ***************
+                    STIKOM TUNAS BANGSA PEMATANGSIANTAR
                   </h2>
 
                   <p className="text-start text-sm">
